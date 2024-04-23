@@ -1,0 +1,57 @@
+$whiteForNeonInHeader: #ffffff98;
+$whiteForNeonInBody: #ffffffdd;
+
+.main {
+    .header {
+        background-color: rgba(0, 78, 109);
+        width: 100%;
+        height: 3rem;
+        box-shadow:
+            0 0 7px $whiteForNeonInHeader,
+            0 0 10px $whiteForNeonInHeader,
+            0 0 21px $whiteForNeonInHeader,
+            0 0 42px rgba(0, 78, 109),
+            0 0 82px rgba(0, 78, 109);
+    }
+
+    .body {
+        background-color: rgba(0, 78, 109, 0.479);
+        margin: 7rem 7em;
+        border-radius: 3rem;
+        padding: rem;
+
+        box-shadow:
+            0 0 7px $whiteForNeonInBody,
+            0 0 10px $whiteForNeonInBody,
+            0 0 21px $whiteForNeonInBody,
+            0 0 42px rgba(0, 78, 109),
+            0 0 82px rgba(0, 78, 109),
+            0 0 92px rgba(0, 78, 109),
+            0 0 102px rgba(0, 78, 109),
+            0 0 151px rgba(0, 78, 109);
+
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
+}
+
+.image {
+    flex: 1 0 20%;
+
+    margin: 2.4em;
+
+    img {
+        width: 100%;
+        border-radius: 2rem;
+
+        width: 100%;
+        height: 100%;
+
+        object-fit: cover;
+        object-position: 50% 50%;
+
+        box-shadow: 0 0 20px $whiteForNeonInBody;
+    }
+}
